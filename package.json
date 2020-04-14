@@ -1,0 +1,19 @@
+{
+  "name": "@yunser/time-cli",
+  "version": "0.0.2",
+  "description": "time",
+  "main": "index.js",
+  "author": "Yunser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunser/time-cli"
+  },
+  "bin": {
+    "time-text": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "moment": "^2.24.0"
+  }
+}

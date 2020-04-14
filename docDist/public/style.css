@@ -1,0 +1,31 @@
+.page {}
+.pageSide {
+    width: 256px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fafafa;
+    border-right: 1px solid rgba(0, 0, 0, .12);
+    padding: 16px;
+}
+.pageContent {
+    padding-left: 256px;
+    /* padding: 24px; */
+}
+.pageContent .article {
+    padding: 24px;
+}
+
+.pageSide ul {
+    padding-left: 16px;
+}
+.pageSide li {
+    list-style: disc;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.pageSide a {
+    color: #333;
+}
