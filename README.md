@@ -1,37 +1,11 @@
-# hello-cli
+# time-cli
 
-使用
+> 一个快速生成时间文本的工具。
 
-```shell
-$ npm i @yunser/hello-cli -g
-$ hello
-Hello World
-$ hello Yunser
-Hello Yunser
-```
-
-开发
+使用：
 
 ```shell
-node index.js
-
-node index.js Yunser
-
-npm i ./ -g
-hello
+$ npm i @yunser/time-cli -g
+$ time-text
+2020-04-14 17:20:34
 ```
-
-英文文档
-
-
-## TODO
-
-* 结合 GIT 进行数据备份。
-* backup.
-
-
-文章推荐：
-
-* https://www.cnblogs.com/aaron---blog/p/11669592.html
-
-
